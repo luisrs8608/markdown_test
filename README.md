@@ -41,11 +41,11 @@ ___
 
 ```python
 @api.multi
-    def onchage_pedido_compra(self, pedido_compra):
-        value = super(BpsCotizaciones, self).onchage_pedido_compra(
-            pedido_compra)
-        value['value']['spence_ordenator_id'] = False
-        return value
+def onchage_pedido_compra(self, pedido_compra):
+  value = super(PedidoCompra, self).onchage_pedido_compra(
+      pedido_compra)
+  value['value']['spence_ordenator_id'] = False
+  return value
 ```
 
 ```html
