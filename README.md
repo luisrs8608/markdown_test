@@ -28,9 +28,9 @@ Este es un ~~texto~~ tachado
 2. orange
 3. etc
 
-[faztweb.com](https://www.faztweb.com)
+[google.com](https://www.google.com)
 
-[faztweb.com](https://www.faztweb.com "Custom title")
+[google.com](https://www.google.com "Custom title")
 
 >this is a quote
 
